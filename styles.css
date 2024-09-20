@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.product {
+    display: flex;
+    height: 100vh;
+    background-color: grey;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.box {
+    height: 400px;
+    width:  auto;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    max-width: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    
+    
+
+}
+img {
+   width: 150px;
+    max-height: 100px;
+    display: flex;
+    align-self: center;
+    justify-items: center;
+}
+figcaption {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.aside {
+    height: 400px;
+    width: auto;
+    padding: 35px;
+    max-width: 200px;
+    background-color: white;
+    border: 2px solid black;
+}
